@@ -4,7 +4,7 @@ import User from "@/lib/models/user"
 import { Types } from "mongoose";
 import Category from "@/lib/models/category";
 
-export const PATCH = async (request: Request, context: { param: any }) => {
+export const PATCH = async (request: Request, context: { params: any }) => {
     const categoryId = context.params.category;
     try {
         const body = await request.json();
