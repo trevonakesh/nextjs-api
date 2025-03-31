@@ -1,5 +1,6 @@
 import Image from "next/image";
-import Memory from "./components/memory";
+import "./globals.css";
+
 
 export default function Home() {
   return (
@@ -102,7 +103,6 @@ export default function Home() {
       </footer>
     </div>
 
-    <Memory/>
     </>
   );
 }
